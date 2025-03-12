@@ -1,6 +1,6 @@
 //
-//  MemoryGame.swift
-//  Memory
+//  MemorizeGame.swift
+//  Memorize
 //
 //  Created by David on 2025/2/28.
 //
@@ -48,7 +48,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
     
     struct Card: Equatable, Identifiable, CustomDebugStringConvertible {
 
-        var isFaceUp = false
+        var isFaceUp = true
         var isMatched = false
         let content: CardContent
         
